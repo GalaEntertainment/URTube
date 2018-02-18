@@ -1396,12 +1396,38 @@ body {
 .cid-qJQ9wEWnlR .mbr-section-btn {
   text-align: center;
 }
-.cid-qJQaNDzgdW {
-  background: linear-gradient(45deg, #fbac7f, #7f1933);
+.cid-qJZTOfuFdZ {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
-.cid-qJQaNDzgdW .mbr-section-subtitle {
-  font-style: italic;
-  letter-spacing: 1rem;
+.cid-qJZTOfuFdZ .counter-container {
+  color: #767676;
+}
+.cid-qJZTOfuFdZ .counter-container ul {
+  margin-bottom: 0;
+}
+.cid-qJZTOfuFdZ .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-qJZTOfuFdZ .counter-container ul li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  padding-top: 3px;
+  content: '';
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 20px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  content: '✓';
 }
 .cid-qJYEW6fTnt {
   background-image: url("../../../assets/images/belyy-kirpich-stena-iz-kirpicha-2000x1125.jpg");
