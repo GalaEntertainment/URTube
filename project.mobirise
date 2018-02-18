@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 25,
+    "uniqCompNum": 29,
     "versionPublish": "4.6.5",
     "theme": {
       "name": "mobirise4",
@@ -13,7 +13,7 @@
         "secondaryColor": "#7f1933",
         "successColor": "#f9f295",
         "infoColor": "#82786E",
-        "warningColor": "#879A9F",
+        "warningColor": "#879a9f",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Rubik",
@@ -119,6 +119,52 @@
           "_customHTML": "<section class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#fbac7f\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#7f1933\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-left\">\n        <div class=\"media-container-column mbr-white col-md-12\">\n            <h3 class=\"mbr-section-subtitle py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"></h3>\n            <h1 class=\"mbr-section-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"></h1>\n            <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\"><b>Stand Up Comedians:</b> Enjoy the best stand ups comedy with the India’'s most famous comedians like Zakir Khan, Kanan Gill, Abhishek Upmanyu, Kenny Sebastian, Vir Das, East India Comedy, Aditi Mittal, Karunesh Talwar, The Comedy Factory, Abijit Ganguly, SnG Comedy, Kunal Kamra, Aakash Gupta, Nishant Tanwar, Sorabh Pant, Biswa Kalyan Rath, Random Chikibum, Jeeveshu Ahluwalia, Atul Khatri, Vikramjit Singh and more.<br><br><b>Motivational/ Inspirational Speakers:</b> Watch India’s top motivational keynote speakers videos - Sandeep Maheshwari, TS Madaan, Dr. Vivek Bindra, Him-eesh Madaan, Ujjwal Patni, B K Shivani, Deepak Chopra (The Chopra Well), Vasant Chauhan, Sneh Desai, Shiv Khera and more.<br><br><b>Poets:</b> Watch all of your favorite poet videos - Dr. Kumar Vishwas, Suryakumar Pandey, Arun Gemini, Shambhu Shikhar, Chirag Jain, Sanjay Jhala, Santosh Anand, Hariom Panwar, Anjum Rehbar, Anamika Jain Ambar, Suresh Albela Praveen Shukla, Imran Pratapgarhi, Kunwar Bechain, Rahat Indori, Nida Fazli, Ravindra Jain, Mujawar Malegavi, Sunder Malegavi, Dr. Vishnu Saxena, Haresh Chaturvedi, Pradeep Chobey, Surendra Dubey, Popular Meeruthi, Mahendra Ajanabi, Vedprakash Ved, Padma Albela, Mahesh Dubey, Dinesh Diggaj and More.<br><br><b>Success Stories:</b> We bring you exclusive stories of top companies like Amazon, Flipkart, Snapdeal, Facebook, Google, WhatsApp and many more which were established successful entrepreneurs Rantan Tata, Mukesh Ambani, Indra Nooyi, Sundar Pichai, Jeff Bezos, Sachin Bansal, Kunal Bahl, Mark Zuckerberg, Larry Page among others.<br><br><b>Do You Know:</b> A collection of popular mythological stories that brings to you stories of gods and goddesses, divine feats, tyranny, treachery, bravery, sacrifice, love and friendship. Watch mythological stories from Secret Indian Tv, Revealing Eyes, Myth Tv India, Mysterious World Hindi, Do You Know, The Epic Channel, Mysterious, Dharmik Tathya, Magicbox, Epicast, World Wide Biographies, Adbhut Rahsay.<br><br><b>Short Films:</b> Watch short films from Dramaicon, Pocket Films, Indian Short Films, First Kut, Large Short Films, Viddsee, Humara Movie, Six Sigma Films, RDC Short Films, Hindi Short Films, SCUD, DHO Films, Short Films, MITID Films and more.<br><br><b>Khana Khazana:</b> Learn the best of cuisines from the finest of chefs and get ready to witness some smooth give and take cooking experiences! Learn the cooking with Nisha Madhulika, Kabita, Sanjeev Kapoor, Sunita Agarwal, Parul, Tarla Dalal, Reena, Sonal, Chef Harpal Singh, Rajshri, Amna and more.<br><br>Download today to discover new videos of your favorites Comedians, Poets, Speakers &amp; Chefs. Keep smile!<br><br>If you have any suggestion about app or wanted to add another Comedians, Poets, Speakers Chefs etc. Please feel free to give feedback at <a href=\"mailto:urtubefeedback@gmail.com\" class=\"text-white\">urtubefeedback@gmail.com.</a></p>\n            <div class=\"mbr-section-btn py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qJQaNDzgdW",
           "_anchor": "header11-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#767676"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            },
+            "H3": {
+              "color": "#5b686b"
+            },
+            "P": {
+              "color": "#5b686b"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                <a href=\"https://play.google.com/store/apps/details?id=gala.com.urtube\" target=\"_blank\" class=\"text-info\">URTube</a></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><a href=\"https://play.google.com/store/apps/details?id=gala.com.urtube\" target=\"_blank\" class=\"text-info\">Comedy, Funny Pranks, Dramas and More</a></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">URTube app allows you to watch unlimited instant streaming of your favorite Comedians, Poets, Speakers &amp; Chefs videos and helps you to keep smiling, to feel joy and happiness in every moment. It's a great app for catching up on Comedy, Funny Prank, Stand Up Comedy, Dramas, Short Films &amp; Epic Stories you might not have heard of otherwise.<br>URTube Makes it easy to narrow down your search. It offers a section for featured content if you're not quite sure what you're looking for.</p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black-outline\" href=\"https://play.google.com/store/apps/details?id=gala.com.urtube\" target=\"_blank\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>Play Store</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "qJYEW6fTnt",
+          "_anchor": "header9-r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
